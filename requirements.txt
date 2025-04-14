@@ -1,0 +1,13 @@
+bert_score==0.3.13
+evaluate==0.4.3
+langchain==0.3.23
+langchain_community==0.3.21
+langchain_openai==0.3.12
+llama_index==0.12.30
+llama-index-embeddings-fastembed==0.3.1
+numpy==2.2.4
+pandas==2.2.3
+qdrant_client==1.13.3
+Requests==2.32.3
+together==1.5.5
+tqdm==4.67.1

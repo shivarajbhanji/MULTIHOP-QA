@@ -192,9 +192,7 @@ if not os.path.exists(output_tsv_file):
   with open(output_tsv_file, 'w') as f:
     f.write("prompt\tprediction\tgold\n")
 
-sub_list = [query_samples[i] for i in [17, 31, 80, 121, 212, 246, 585, 589, 614, 694, 1023, 1424, 1429, 1440, 2417, 2502]]
-
-for idx, query in enumerate(sub_list):
+for idx, query in enumerate(query_samples[q_start_id:]):
     try: 
         query_title = query['query']
     
